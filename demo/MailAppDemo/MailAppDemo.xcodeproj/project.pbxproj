@@ -12,8 +12,8 @@
 		11754E2F19D5C1EA009CE7B5 /* MailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11754E2E19D5C1EA009CE7B5 /* MailViewController.m */; };
 		11754E3419D5C1EA009CE7B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11754E3319D5C1EA009CE7B5 /* Images.xcassets */; };
 		11754E4E19D5C3A1009CE7B5 /* MailTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11754E4D19D5C3A1009CE7B5 /* MailTableCell.m */; };
-		11754E5419D5C3E5009CE7B5 /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 11754E5219D5C3E5009CE7B5 /* MGSwipeButton.m */; };
-		11754E5519D5C3E5009CE7B5 /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11754E5319D5C3E5009CE7B5 /* MGSwipeTableCell.m */; };
+		65B2A0A625B701D600BC31DC /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2A0A325B701D600BC31DC /* MGSwipeButton.m */; };
+		65B2A0A725B701D600BC31DC /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2A0A525B701D600BC31DC /* MGSwipeTableCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,10 +27,10 @@
 		11754E3319D5C1EA009CE7B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		11754E4C19D5C3A1009CE7B5 /* MailTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailTableCell.h; sourceTree = "<group>"; };
 		11754E4D19D5C3A1009CE7B5 /* MailTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailTableCell.m; sourceTree = "<group>"; };
-		11754E5019D5C3E5009CE7B5 /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = ../../MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
-		11754E5119D5C3E5009CE7B5 /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = ../../MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
-		11754E5219D5C3E5009CE7B5 /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = ../../MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
-		11754E5319D5C3E5009CE7B5 /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = ../../MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		65B2A0A325B701D600BC31DC /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = ../../Sources/MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
+		65B2A0A525B701D600BC31DC /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = ../../Sources/MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		65B2A0A825B7025700BC31DC /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = ../../Sources/MGSwipeTableCell/include/MGSwipeButton.h; sourceTree = "<group>"; };
+		65B2A0A925B7025700BC31DC /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = ../../Sources/MGSwipeTableCell/include/MGSwipeTableCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,10 +88,10 @@
 		11754E4F19D5C3CE009CE7B5 /* MGSwipeTableCell */ = {
 			isa = PBXGroup;
 			children = (
-				11754E5019D5C3E5009CE7B5 /* MGSwipeButton.h */,
-				11754E5219D5C3E5009CE7B5 /* MGSwipeButton.m */,
-				11754E5119D5C3E5009CE7B5 /* MGSwipeTableCell.h */,
-				11754E5319D5C3E5009CE7B5 /* MGSwipeTableCell.m */,
+				65B2A0A825B7025700BC31DC /* MGSwipeButton.h */,
+				65B2A0A925B7025700BC31DC /* MGSwipeTableCell.h */,
+				65B2A0A325B701D600BC31DC /* MGSwipeButton.m */,
+				65B2A0A525B701D600BC31DC /* MGSwipeTableCell.m */,
 			);
 			name = MGSwipeTableCell;
 			sourceTree = "<group>";
@@ -135,6 +135,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -165,9 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				11754E2F19D5C1EA009CE7B5 /* MailViewController.m in Sources */,
-				11754E5519D5C3E5009CE7B5 /* MGSwipeTableCell.m in Sources */,
+				65B2A0A725B701D600BC31DC /* MGSwipeTableCell.m in Sources */,
 				11754E4E19D5C3A1009CE7B5 /* MailTableCell.m in Sources */,
-				11754E5419D5C3E5009CE7B5 /* MGSwipeButton.m in Sources */,
+				65B2A0A625B701D600BC31DC /* MGSwipeButton.m in Sources */,
 				11754E2C19D5C1EA009CE7B5 /* AppDelegate.m in Sources */,
 				11754E2919D5C1EA009CE7B5 /* main.m in Sources */,
 			);

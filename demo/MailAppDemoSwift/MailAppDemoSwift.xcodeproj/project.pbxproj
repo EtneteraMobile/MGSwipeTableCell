@@ -13,8 +13,8 @@
 		11E203741A1A9B440084A446 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E203721A1A9B440084A446 /* LaunchScreen.xib */; };
 		11E203801A1A9B440084A446 /* MailAppDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E2037F1A1A9B440084A446 /* MailAppDemoSwiftTests.swift */; };
 		11E2038A1A1A9CEF0084A446 /* MailTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E203891A1A9CEF0084A446 /* MailTableCell.swift */; };
-		11FC3C8B1B6C132A0067CA0A /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC3C881B6C132A0067CA0A /* MGSwipeButton.m */; };
-		11FC3C8C1B6C132A0067CA0A /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC3C8A1B6C132A0067CA0A /* MGSwipeTableCell.m */; };
+		65B2A0AE25B7027C00BC31DC /* MGSwipeTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2A0AB25B7027C00BC31DC /* MGSwipeTableCell.m */; };
+		65B2A0AF25B7027C00BC31DC /* MGSwipeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B2A0AC25B7027C00BC31DC /* MGSwipeButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,11 @@
 		11E2037E1A1A9B440084A446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11E2037F1A1A9B440084A446 /* MailAppDemoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailAppDemoSwiftTests.swift; sourceTree = "<group>"; };
 		11E203891A1A9CEF0084A446 /* MailTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailTableCell.swift; sourceTree = "<group>"; };
-		11FC3C871B6C132A0067CA0A /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = ../../MGSwipeTableCell/MGSwipeButton.h; sourceTree = "<group>"; };
-		11FC3C881B6C132A0067CA0A /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = ../../MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
-		11FC3C891B6C132A0067CA0A /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = ../../MGSwipeTableCell/MGSwipeTableCell.h; sourceTree = "<group>"; };
-		11FC3C8A1B6C132A0067CA0A /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = ../../MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
 		11FC3C8D1B6C15230067CA0A /* ObjCBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCBridgingHeader.h; sourceTree = "<group>"; };
+		65B2A0AA25B7027C00BC31DC /* MGSwipeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeButton.h; path = ../../Sources/MGSwipeTableCell/include/MGSwipeButton.h; sourceTree = "<group>"; };
+		65B2A0AB25B7027C00BC31DC /* MGSwipeTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeTableCell.m; path = ../../Sources/MGSwipeTableCell/MGSwipeTableCell.m; sourceTree = "<group>"; };
+		65B2A0AC25B7027C00BC31DC /* MGSwipeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGSwipeButton.m; path = ../../Sources/MGSwipeTableCell/MGSwipeButton.m; sourceTree = "<group>"; };
+		65B2A0AD25B7027C00BC31DC /* MGSwipeTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSwipeTableCell.h; path = ../../Sources/MGSwipeTableCell/include/MGSwipeTableCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +124,10 @@
 		11FC3C861B6C13180067CA0A /* MGSwipeTableCell */ = {
 			isa = PBXGroup;
 			children = (
-				11FC3C871B6C132A0067CA0A /* MGSwipeButton.h */,
-				11FC3C881B6C132A0067CA0A /* MGSwipeButton.m */,
-				11FC3C891B6C132A0067CA0A /* MGSwipeTableCell.h */,
-				11FC3C8A1B6C132A0067CA0A /* MGSwipeTableCell.m */,
+				65B2A0AA25B7027C00BC31DC /* MGSwipeButton.h */,
+				65B2A0AC25B7027C00BC31DC /* MGSwipeButton.m */,
+				65B2A0AD25B7027C00BC31DC /* MGSwipeTableCell.h */,
+				65B2A0AB25B7027C00BC31DC /* MGSwipeTableCell.m */,
 			);
 			name = MGSwipeTableCell;
 			sourceTree = "<group>";
@@ -198,6 +198,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -237,10 +238,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				11E2038A1A1A9CEF0084A446 /* MailTableCell.swift in Sources */,
+				65B2A0AE25B7027C00BC31DC /* MGSwipeTableCell.m in Sources */,
+				65B2A0AF25B7027C00BC31DC /* MGSwipeButton.m in Sources */,
 				11E2036C1A1A9B440084A446 /* MailViewController.swift in Sources */,
-				11FC3C8B1B6C132A0067CA0A /* MGSwipeButton.m in Sources */,
 				11E2036A1A1A9B440084A446 /* AppDelegate.swift in Sources */,
-				11FC3C8C1B6C132A0067CA0A /* MGSwipeTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
