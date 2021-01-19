@@ -1,5 +1,10 @@
 # Changelog
 
+## unreleased
+
+- add support for SPM
+- remove support for cocoapods
+
 ## 1.6.11
 
 - Also apply the accessoryType fix on iOS 12
